@@ -1,0 +1,189 @@
+.subcatagory-dash{
+    .subcatagory-data{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .newsubcatagory{
+            width: 30%;
+            .parant-drop{
+                border: 1px solid #e1e1e1;
+                border-bottom: none;
+                overflow-y: scroll;
+            }
+            #down{
+                transform: rotate(90deg);
+                transition: 0.2s all;
+            }
+            .adding{
+                .text{
+                    color: black;
+                    font-size: 16px;
+                    margin: 0px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                    text-transform: capitalize;
+
+                }
+
+                input{
+                    margin-bottom: 10px;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    border: 1px solid #e1e1e1;
+                    height: 35px;
+                    padding-left: 10px;
+                }
+
+                .parents{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    border: 1px solid #e1e1e1;
+                    height: 40px;
+                    padding-left: 10px;
+                    justify-content: space-between;
+                    display: flex;
+                    padding: 0px 15px;
+                    align-items: center;
+                    background: white;
+                    p{
+                        margin: 0px;
+                    }
+                    i{
+                        transition: 0.2s all;
+                    }
+                }
+                .parentso{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid #e1e1e1;
+                    height: 40px;
+                    padding-left: 10px;
+                    padding: 0px 15px;
+                    text-align: left;
+                    background: white;
+                    
+                }
+                .parentso:hover{
+                    background : #e4d4e4;
+                }
+
+                .filesec{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+
+                    button{
+                        background: rgb(236, 236, 236);
+                        border : 1px solid rgba(128, 128, 128, 0.507);
+                        outline: none;
+                        height: 35px;
+                    }
+                }
+                .addbutton{
+                    width: 100%;
+                    background: #4e4e4e;
+                    height: 40px;
+                    color: white;
+                    font-weight: bold;
+                    margin-top: 20px;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+
+        .allsubcatagory{
+            width: 68%;
+        }
+    }
+
+    
+}
+
+
+
+.allsubcatagory{
+    .subcatagorytable{
+        width: 100%;
+        margin-top: 20px;
+        
+
+        
+    }
+    .sid{
+        width: 10%;
+    }
+
+    .sact{
+        width: 20%;
+    }
+    .spar{
+        width: 27%;
+    }
+    .sname{
+        width: 23%;
+    }
+    .simg{
+        width: 19%;
+    }
+    .serach-box{
+        height: 40px;
+        width: 40%;
+        border: 1px solid rgb(233, 233, 233);
+        margin-top: 20px;
+        float: right;
+        display: flex;
+        i{
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+        }
+
+        input{
+            border : none;
+            outline: none;
+        }
+    }
+    td{
+        height: 60px;
+        border : 1px solid rgb(214, 214, 214);
+        text-align: center;
+        line-height: 40px;
+
+        
+
+    }
+    .actionstab{
+        
+        button{
+            border : none;
+            background : none;
+            outline: none;
+        }
+    }
+
+    .actionstab .dd{
+        color : red;
+    }
+    .actionstab .ed{
+        color: royalblue;
+    }
+
+
+}
+
+.addedsubcat_tyy{
+    height: 100px;
+    max-width: 100%;
+    img{
+        height: 100%;
+        max-width: 100%;
+    }
+}

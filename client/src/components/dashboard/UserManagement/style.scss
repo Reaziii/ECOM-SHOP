@@ -1,0 +1,27 @@
+.usermanagement{
+    .alluser{
+        margin-top: 40px;
+        .tablealluser{
+            width: 100%;
+            
+            td{
+                text-align: center;
+                border: 1px solid rgb(224, 224, 224);
+                height: 40px;
+            }
+        }
+    }
+
+    .searchfield{
+        width: 100%;
+        padding:20px;
+        padding-bottom: 0px;
+        input{
+            height: 40px;
+            border: 1px solid rgb(223, 223, 223);
+            outline: none;
+            width: 30%;
+            padding-left: 10px;
+        }            
+    }
+}

@@ -1,0 +1,47 @@
+.detailsbox-dash{
+    height: 140px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+
+    .box{
+        width: 23%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: white;
+
+        p{
+            margin: 0px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 15px;
+            letter-spacing: 1px;
+
+        }
+        h1{
+            margin: 0px;
+            font-size: 32px;
+        }
+        .under{
+            text-align: center;
+        }
+    }
+    .box1{
+        background: #EF4E59;
+    }
+    .box2{
+        background: #B55EC9;
+    }
+    .box3{
+        background: #64CD43;
+    }
+    .box4{
+        background: #0074DA;
+    }
+}

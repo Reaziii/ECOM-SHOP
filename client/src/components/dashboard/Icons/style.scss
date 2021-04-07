@@ -1,0 +1,102 @@
+.Icons-dash{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .addicon{
+        width: 30%;
+        input,button{
+            width: 100%;
+            border : 1px solid silver;
+            outline: none;
+            height: 40px;
+        }
+        input{
+            padding-left: 10px;
+        }
+
+        p{
+            margin: 0px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 17px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        #i1{
+            height: 80px;
+            width: 80px;
+            border : 1px solid rgb(231, 231, 231);
+            text-align: center;
+            line-height: 80px;
+            font-size: 40px;
+        }
+        #i2{
+            height: 60px;
+            width: 60px;
+            border : 1px solid rgb(223, 223, 223);
+            text-align: center;
+            line-height: 60px;
+            font-size: 30px;
+            margin-left: 10px;
+        }
+        #i3{
+            height: 40px;
+            width: 40px;
+            border : 1px solid rgb(228, 228, 228);
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+            margin-left: 10px;
+
+        }
+        button{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            background : #4e4e4e;
+            border : none;
+            margin-top: 10px;
+        }
+    }
+
+    .allicons{
+        width: 68%;
+
+
+    }
+
+    .listicons{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-gap : 10px;
+        .icons{
+            height: 100px;
+            p{
+                font-size: 12px;
+                margin: 0px;
+                font-weight: bold;
+                text-align: center;
+
+            }
+        }
+        i{
+            height: 60px;
+            width : 100%;
+            font-size: 30px;
+            text-align: center;
+            line-height: 60px;
+
+        }
+    }
+    .searchbox{
+        outline : none;
+        border : 1px solid rgb(226, 226, 226);
+        margin : 20px 0px;
+        margin-left: 10px;
+        padding : 10px;
+        width: 40%;
+
+    }
+}
+

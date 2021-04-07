@@ -1,0 +1,89 @@
+.top-panel-dash{
+    display: flex;
+    .totalctty{
+        margin-right: 10px;
+    }
+
+    .secnd{
+        cursor: pointer;
+        i{
+            background: #2ECC40;
+        }
+        p{
+            color: #2ECC40;
+        }
+    }
+    
+}
+
+.allproducts-dash{
+    margin-top: 20px;
+
+    .producttable{
+        width: 100%;
+
+        .pid{
+            width: 11%;
+
+        }
+        .pthumb{
+            width : 12%;
+        }
+        .pname{
+            width: 15%;
+        }
+        .pcat{
+            width : 21%;
+        }
+        .psubcat {
+            width : 10%;
+        }
+        .pprice {
+            width : 10%;
+        }
+        .pactions{
+            width: 13%;
+        }
+        .pstock{
+            width: 7%;
+        }
+        td{
+            border : 1px solid rgb(216, 216, 216);
+            text-align: center;
+            height: 40px;
+            text-transform: capitalize;
+        }
+    }
+    .catsubtxtss{
+        margin: 0px;
+    }
+    .showallimage{
+        width: 90%;
+        height: 90%;
+        background: rgb(236, 236, 236);
+        border: 1px solid rgb(216, 216, 216);
+        outline: none;
+        font-size: 18px;
+    }
+}
+
+.actionstab button{
+    background: none;
+    outline: none;
+    border: none;
+    
+}
+.actionstab{
+    
+    button{
+        border : none;
+        background : none;
+        outline: none;
+    }
+}
+.actionstab .dd{
+    color : red;
+}
+.actionstab .ed{
+    color: royalblue;
+}

@@ -1,0 +1,63 @@
+.loginpage{
+    height: 80%;
+    width: 60%;
+    padding : 10px;
+
+    overflow: hidden;
+    display: flex;
+    .rightimg{
+        height: 100%;
+        width: 50%;
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .leftdata{
+        height: 100%;
+        width: 50%;
+        height: 100%;
+        padding : 20px 20px;
+
+        h1{
+            color: #262626;
+            font-size: 25px;
+            font-weight: bold;
+            text-transform: uppercase;
+
+
+        }
+        p{
+            font-size: 18px;
+            margin : 0px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            font-weight: bold;
+
+        }
+        input,button{
+            width: 100%;
+            height: 38px;
+            outline: none;
+
+        }
+        button{
+            margin-top: 40px;
+            border: 1px solid rgb(221, 221, 221);
+            background: #262626;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        a{
+            text-decoration: none;
+            margin:auto;
+            
+        }
+    }
+}
+

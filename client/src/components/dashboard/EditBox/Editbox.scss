@@ -1,0 +1,100 @@
+.editbox{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.712);
+    z-index: 4;
+
+    .mainbox{
+        left: 60%;
+        margin-top: 100px;
+        transform: translate(-60%,0%);
+        position: absolute;
+        width: 60%;
+        background: white;
+    }
+    .create-new{
+        width: 100%;
+        .create-box{
+            padding : 20px;
+            p{
+                margin: 0px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            input{
+                height: 35px;
+                width: 100%;
+                border: 1px solid lightgrey;
+                padding-left: 20px;
+                margin-bottom: 20px;
+                outline: none;
+            }
+            .addbutton,.closebutton{
+                width: 49%;
+                border: none;
+                outline: none;
+                border: 1px solid #dbdbdb;
+                background: white;
+                height: 35px;
+                border-bottom: 1px solid rgb(192, 192, 192);
+                background : #4e4e4e;
+                margin-top: 20px;
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-align: center;
+                
+            }
+            .addbutton{
+                background: #2ECC40!important;
+            }
+            .closebutton{
+                background : #FF4136!important;
+            }
+
+        }
+        .dropdownicon{
+            button{
+                width: 100%;
+                border: none;
+                outline: none;
+                border: 1px solid #dbdbdb;
+                background: white;
+                height: 35px;
+                text-align: left;
+                padding-left: 30px;
+                border-bottom: 1px solid rgb(192, 192, 192);
+            }
+            span{
+                float: right;
+                margin-right: 10px;
+                transition: 0.2s all;
+
+            }
+
+            .down{
+                transform: rotate(90deg);
+                transition: 0.2s all;
+
+            }
+        }
+    }
+    .lists{
+        max-height: 250px;
+        overflow-y: scroll;
+        border: 1px solid #f2f2f2;
+        border-bottom: none;
+        button{
+            border: none!important;
+            border-bottom: 1px solid #e9e9e9!important;
+        }
+        button:hover{
+            background : rgb(228, 228, 228);
+        }
+    }
+
+}

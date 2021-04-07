@@ -1,0 +1,50 @@
+.createNewCoupon{
+    width: 30%;
+    .divideinto{
+        display: flex;
+        justify-content: space-between;
+        .okk{
+            width: 49%;
+            input{
+                width: 100%;
+                border : 1px solid rgb(216, 216, 216);
+                outline : none;
+                height: 40px;
+                padding : 5px;
+            }
+            .react-datepicker-wrapper{
+                padding : 0px;
+                .react-datepicker__input-container{
+                    padding : 0px;
+
+                }
+            }
+        }
+    }
+    input{
+        border : 1px solid rgb(230, 230, 230);
+        outline: none;
+        background: white;
+        padding : 5px;
+        height: 40px;
+        width: 100%;
+        
+    }
+    p{
+        margin : 0px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .addbutton{
+        width: 100%;
+        background: #4e4e4e;
+        height: 40px;
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+    }
+}

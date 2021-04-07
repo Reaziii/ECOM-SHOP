@@ -1,0 +1,116 @@
+.addproductstt{
+    position: absolute;
+    height:100vh;
+    width: 100%;
+    left : 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.651);
+    z-index: 4;
+
+    .main{
+        width: 60%;
+        top: 130px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0%);
+        background: white;
+        overflow-y: scroll;
+        max-height: 500px;
+
+        input{
+            width : 100%;
+            height: 35px;
+            outline: none;
+        }
+
+        .cross{
+            float: right;
+            color : red;
+            font-size: 30px;
+            padding-right: 10px;
+            cursor: pointer;
+        }
+
+        .dropdown_txx button,.catnamebut{
+            width: 100%;
+            height: 35px;
+            text-align: left;
+            padding-left: 10px;
+            border: none;
+            outline: none;
+            border-radius: 3px;
+            border-bottom: 1px solid rgb(201, 201, 201);
+            background: white;
+            
+            
+
+        }
+        .catnamebut{
+            border: 1px solid gray;
+            margin-top: 10px;
+            font-weight: bold;
+
+
+        }
+        .dropdown_txx{
+            border: 1px solid rgb(216, 216, 216);
+            border-bottom: none;
+            height: 120px;
+            overflow-y: scroll;
+        }
+
+        .activebutton{
+            background: rgb(214, 214, 214)!important;
+        }
+    }
+
+    .atx_jj{
+        display:  grid;
+        grid-gap: 5px;
+        grid-template-columns: auto auto;
+
+        .boxxx{
+            position: relative;
+            max-height: 100px;
+            cursor : pointer;
+
+            button{
+                position: absolute;
+                color: red;
+                left: 0%;
+                top: 0%;
+                background: none;
+                outline: none;
+                border : none;
+                font-size: 24px;
+                opacity: 0;
+            }
+        }
+        .boxxx:hover button{
+            opacity: 1;
+        }
+    }
+    .hogomarashara{
+        .buttonss{
+            width: 100%;
+            border: 1px solid silver;
+            background: rgb(255, 253, 250);
+            outline: none;
+            height: 40px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .addbuttonsss{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border:none;
+        background: #262626;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+}
